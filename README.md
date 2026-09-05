@@ -1,8 +1,8 @@
 # DrawTone
-DrawTone is websit which convert your words into abstract square art.
+DrawTone is website which convert your words into abstract square art.
 
 # Try it link
-To try the project click: https://leonardoduty.github.io/DrawTone/
+To try the project click: https://draw-tone.vercel.app/
 
 # Quick Start
 To quick start just open the link!!
