@@ -5,16 +5,47 @@
 <link href = "style.css" rel = "stylesheet">
 </head>
 <body>
+<img src="logo.png" alt="DrawTonelogo">
 <main class = "drawtone">
 
 <div id = "artwork"></div>
 
+<div class = "toolbar_l">
+<button type = "button" title="Bold"><strong>B</strong></button>
+<button type = "button" title="Italic"><em>I</em></button>
+<button type="button" title="Underline"><u>U</u></button>
+<button type="button" title="Strikethrough"><s>S</s></button>
+<span class="toolbar-div"></span>
+<button type="button" title="Undo">↶</button>
+<button type="button" title="Redo">↷</button>
+</div>
+
+<div class="toolbar_r">
+<button type="button" title="Canvas">Canvas</button>
+<div id="canvasMenu" class="canvas-menu">
+    <button type="button" data-ratio="1 / 1">1:1</button>
+    <button type="button" data-ratio="4 / 3">4:3</button>
+    <button type="button" data-ratio="16 / 9">16:9</button>
+    <button type="button" data-ratio="3 / 2">3:2</button>
+</div>
+<button type="button" title="Palette">Palette</button>
+
+<span class="toolbar-div"></span>
+
+<button type="button" title="Save as PNG">PNG</button>
+<button type="button" title="Export">Export</button>
+<button type="button" id="musicBtn" title="Toggle music">♫</button>
+</div>
+
 <div class = "writing_pad">
+
 <textarea id = "word_In" placeholder="Start Typing..." spellcheck="false" autofocus></textarea>
+
+
 </div>
 </main>
+<audio id="lofiMusic" src="music_bg.mp3" loop></audio>
 <script src="script.js"></script>
-
 </body>
 
 </html>
